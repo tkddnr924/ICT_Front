@@ -9,7 +9,7 @@ const HTTP_METHODS = {
 }
 
 const axiosInstance = axios.create({
-  baseURL: 'http://ictserver.herokuapp.com',
+  baseURL: 'https://ictserver.herokuapp.com',
   withCredentials: true,
 })
 
