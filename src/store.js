@@ -100,6 +100,9 @@ export default new Vuex.Store({
               return item.hour + '시'
             }),
           },
+          yaxis: {
+            min: 0,
+          },
         },
         series: [{
           name: '통계',
